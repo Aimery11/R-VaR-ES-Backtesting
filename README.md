@@ -33,7 +33,7 @@ From the project root:
 ```r
 source("run.R")
 	
-```md
+
 **What `run.R` does**
 - Ensures required packages are available (installs missing ones in interactive mode)
 - If `renv.lock` is present: restores the environment via `renv::restore(prompt = FALSE)`
