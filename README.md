@@ -32,12 +32,11 @@ From the project root:
 
 ```r
 source("run.R")
-	
 
-**What `run.R` does**
-- Ensures required packages are available (installs missing ones in interactive mode)
-- If `renv.lock` is present: restores the environment via `renv::restore(prompt = FALSE)`
-- Runs `main.R` and launches the CLI (`run_cli()`)
+What run.R does
+	•	Ensures required packages are available (installs missing ones in interactive mode)
+	•	If renv.lock is present: restores the environment via renv::restore(prompt = FALSE)
+	•	Runs main.R and launches the CLI (run_cli())
 	
 Output
 
